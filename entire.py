@@ -14,7 +14,6 @@ cur.execute('''CREATE TABLE test
                 High FLOAT NOT NULL,
                 Low FLOAT NOT NULL,
                 Close FLOAT NOT NULL
-                               
                 );''')
                
 print("\n Table created successfully!")
