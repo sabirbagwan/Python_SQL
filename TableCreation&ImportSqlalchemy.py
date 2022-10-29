@@ -5,6 +5,7 @@ import glob
 from sqlalchemy import create_engine
 import sqlalchemy
 
+#dialect+driver://username:password@host:port/database
 engine = create_engine("postgresql://postgres:password@localhost:5432/postgres")
 
 
